@@ -1,0 +1,325 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+.block1{
+    .block1_div1{
+    height: 40px;
+    background-color: #F0EEDD;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+.block1_div1 p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    font-family: Roboto;
+}
+.block1_div2{   
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap : 20px;
+}
+.block1_div2 div{
+    flex: 1;
+}
+.block1_div2_div1{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    gap: 10px;
+}
+.block1_div2_div2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.block1_div2_div1 h3{
+    width: 100px;
+}
+.block1_div2_div3{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap : 20px;
+}
+.block1_div2_div3 div{
+    flex: 1;
+}
+.block1_div2_div3 h2{
+    margin-right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: #C87B5E;
+    color: white; 
+    text-align: center;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+}
+.block2{
+    width: 100%;
+    height: 700px;
+    background-image: url(/block2.jpg);
+    background-size: cover;
+    background-position: center;
+    .block2_div1{
+        font-family: "Roboto", sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        margin-left: 600px;
+        padding-top: 200px;
+        color: #35312E;
+
+    }
+    .block2_div1 button {
+    display: inline-block;
+    padding: 18px 32px;
+    background-color: #D37657;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 10px;
+    }
+.block2_div1 button:hover {
+    background-color: #bf6548;
+}
+
+}
+.block3{
+    background-color: #F5F1E9;
+    margin: 0 auto;
+    padding: 0 20px;
+    div{
+        display: flex;
+        align-items: center;
+    }
+    img{
+        width: 200px;
+        height: 50px;
+        padding: 50px 126px;
+    }
+    h2{
+        padding: 20px 600px;
+        text-align: center;
+        font-weight: 600;
+    }
+    .block3_div1{
+        display: flex;
+        gap : 20px;
+    }
+
+}
+.block4{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px 0;
+
+}
+.block5{
+    background-color: #FBF6EA;
+    padding: 50px 0;
+    .block5_div1_div2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+
+        div{
+            margin-right: 10px;
+        }
+    }
+    .block5_div2{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        img{
+            width: 70%;
+            height: 553px;
+        }
+    }
+}
+.block6{
+    background-color: #FCFAF6;
+    padding: 40px;
+    .block6_div1{
+        text-align: center;
+        h1{
+            font-size: 33px;
+            line-height: 55.2px;
+        }
+    }
+    .block6_div2{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        div{
+            width: 20%;
+            text-align: center;
+            margin-top: 20px;
+            justify-content: center;
+            h2{
+                font-size: 20px;
+                line-height: 33.6px;
+                margin-bottom: 10px;
+            }
+            p{
+                font-size: 16px;
+                line-height: 26.88px;
+            }
+            div{
+                width: 100%;
+                padding: 10px;
+                justify-content: center;
+                div{
+                    display:flex;
+                    justify-content:center;
+                    align-items:center;
+                    gap:15px;
+                    width:100%;
+                    margin:15px auto 0;
+                }
+            }
+        }
+        img{
+            width: 100%;
+            height: 350px;
+            border-radius: 10% 50%;
+            background-color: #F0EEDD;
+        }
+    }
+}
+.block7{
+    display: flex;
+    align-items: center;
+    img{
+        width: 33%;
+        height: 480px;
+    }
+    .block7_div1{
+        width: 33%;
+        padding: 130.39px 40px;
+        text-align: center;
+        background-color: #F5F1E9;
+        h1{
+            font-size: 33px;
+            line-height: 55.2px;
+            margin-bottom: 20px;
+        }
+        p{
+            font-size: 16px;
+            line-height: 26.88px;
+        }
+        button{
+            display: inline-block;
+            padding: 18px 32px;
+            background-color: #ffffff;
+            color: #000000;
+            font-family: "Roboto", sans-serif;
+            font-size: 14px;
+            font-weight: 500;
+            text-transform: uppercase;
+            text-decoration: none;
+            border: none;
+            border-radius: 0;
+            cursor: pointer;
+            transition: 0.3s;
+            margin-top: 10px;
+            border: 1px solid #e5e5e5;
+        }
+    }
+}
+.block8{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #6C674D;
+    .block8_div1{
+        width: 50%;
+        padding: 50px;
+        h1{
+            color: #ffffff;
+            font-size: 33px;
+            line-height: 55.2px;
+        }
+        p{
+            color: #ffffff;
+            font-size: 16px;
+            line-height: 26.88px;
+        }
+        input{
+            width: 400px;
+            padding: 10px;
+            margin-top: 20px;
+
+            border: none;
+            border-radius: 5px;
+        }
+    }
+    .block8_div2{
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 50px 0;
+        div{
+            width: 20%;
+            
+            h2{
+                color: #ffffff;
+                font-size: 20px;
+                line-height: 33.6px;
+                margin-bottom: 10px;
+            }
+            p{
+                color: #ffffff;
+                font-size: 16px;
+                line-height: 26.88px;
+            }
+        }
+    }
+}
+.block9{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #807C62;
+    div{
+        width: 50%;
+        padding: 20px;
+        h1{
+            color: #ffffff;
+            font-size: 33px;
+            line-height: 55.2px;
+        }
+        p{
+            color: #ffffff;
+            font-size: 16px;
+            line-height: 26.88px;
+        }
+    }
+    #block9_div1{
+        width: 70%;
+        
+    }
+}
