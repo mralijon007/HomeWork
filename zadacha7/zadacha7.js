@@ -5,13 +5,13 @@
 // }
 
 // 2. Есть переменная n, которая хранит число, выведи все числа от 1 до n
-// let n = 10;
+// let n = 5; 
 // for (let i = 1; i <= n; i++) {
 //     console.log(i);
 // }
 
 // 3. Выведи все четные числа от 1 до 100
-// let evenNumbers = [];
+let evenNumbers = [];
 // for (let i = 1; i <= 100; i++) {
 //     if (i % 2 === 0) {
 //         evenNumbers.push(i);
@@ -34,6 +34,10 @@
 // console.log(movies.length);
 // console.log(movies);
 
+// for (let i = 0; i < movies.length-1; i++){
+//     console.log(movies[i]);
+// }
+
 
 // 2
 // for (let i = 1; i <= 5; i++) {
@@ -52,19 +56,22 @@
 
 // 3
 // let names = ["Мухаммад", "Али", "Зухра", "Саид"];
-// names.sort();
+// const sortedName = names.toSorted();
+// console.log(sortedName);
+// // names.sort();
 // console.log(names);
 
 
 // 4
 // let movies = ["Фильм 1", "Фильм 2", "Фильм 3", "Фильм 4", "Фильм 5"];
-// movies.push("Интерстеллар");
+// movies.push("Интерстеллар1");
 // console.log(movies.includes("Интерстеллар"));
 // console.log(movies.includes("Фильм 1"));
 
 // for (let i = 0; i < movies.length; i++) {
 //     console.log(movies[i]);
 // }
+
 
 
 // 5
@@ -75,6 +82,7 @@
 //         rating: index + 1
 //     };
 // });
+// // console.log(moviesWithRating)
 // let goodMovies = moviesWithRating.filter(function(movie) {
 //     return movie.rating > 3;
 // });
@@ -96,103 +104,3 @@
 // console.log(person);
 // delete person.city;
 // console.log(person);
-
-
-
-
-
-
-
-// Функсия
-
-
-// let user = {
-//     name: "Али",
-//     age: 20,
-//     email: "ali@gmail.com"
-// }
-// function showUser(user) {
-//     console.log(`Имя: ${user.name}, Возраст: ${user.age}, E-mail: ${user.email}`);
-// }
-// showUser(user);
-
-
-
-
-// let products = {
-//     телефон: 500,
-//     мышка: 150,
-//     клавиатура: 300,
-//     наушники: 200
-// };
-// function showExpensiveProducts(products) {
-//     for (let product in products) {
-//         if (products[product] > 250) {
-//             console.log(`Товар: ${product}, Цена: ${products[product]}`);
-//         }
-//         else {
-//             console.log(`дешевый товар`);
-//         }
-//     }
-// }
-// showExpensiveProducts(products);
-
-
-
-
-// let car = {
-//     brand: "Toyota",
-//     model: "Camry",
-//     year: 2020
-// }
-// function getCarInfo(car) {
-//     return `Год выпуска ${car.year}, Модель ${car.brand} ${car.model}`;
-// }
-// console.log(getCarInfo(car));
-
-
-
-
-// let students = [
-//     { name: "Али", age: 20, grade: 5 },
-//     { name: "Саид", age: 18, grade: 4 },
-//     { name: "Зухра", age: 22, grade: 5 }
-// ];
-// function getAverageAge(students) {
-//     let sum = 0;
-//     for (let student of students) {
-//         sum += student.age;
-//     }
-//     return sum / students.length;
-// }
-// console.log(getAverageAge(students));
-
-
-
-
-// function isEven(number) {
-//     return number % 2 === 0;
-// }
-// console.log(isEven(10));
-// console.log(isEven(7));
-
-
-
-
-// let numbers = [10, 20, 30, 40];
-// function getSum(numbers) {
-//     let sum = 0;
-//     for (let number of numbers) {
-//         sum += number;
-//     }
-//     return sum;
-// }
-// console.log(getSum(numbers));
-
-
-
-
-// const multiply = (a, b) => {
-//     return a * b;
-// };
-// console.log(multiply(5, 4));
